@@ -61,7 +61,7 @@ terraform apply
 
 ## Modelo relacional
 
-As migrations de referencia estao em `docs/migration`. A aplicacao executa Flyway no startup do backend.
+As migrations de referencia estão em `docs/migration`. A aplicação executa Flyway no startup do backend.
 
 ## Arquitetura especifica
 

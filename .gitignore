@@ -1,7 +1,33 @@
-.terraform/
-terraform/.terraform/
-terraform.tfstate
-terraform.tfstate.*
-*.tfvars
+# Terraform local state and plans
+**/.terraform/
+*.tfstate
+*.tfstate.*
 crash.log
+crash.*.log
+terraform.tfvars
+terraform.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+*.tfplan
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+.envrc
+*.local
+*.pem
+*.key
+*.crt
+
+# IDEs and OS files
 .idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
